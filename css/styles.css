@@ -1,0 +1,164 @@
+h1,h2,h3,h4,h5,em {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grey-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.white-title {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+i {
+  font-size: 4rem;
+  margin: 26px 40px 36px 40px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+em {
+  font-weight: bold;
+}
+
+/* NAV BAR */
+.container-fluid {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding: 0 5% 0 2%;
+  background-color: #2D2424;
+}
+
+.nav-item {
+  padding: 0 1.2rem;
+}
+
+/* TITLE */
+#title {
+  background-image:
+    url("../images/title-background.jpg");
+  background-size: cover;
+
+}
+
+.title-name {
+  padding: 16.4% 5%;
+}
+
+.title-name h1 {
+  color: #fff;
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+
+.title-name h2 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+.download-button {
+  margin: 2% 0 0% 70%;
+}
+
+.row {
+  margin: 0;
+}
+
+/* ABOUT-ME */
+#about-me {
+  background-color: #fff;
+}
+
+.about-me-text {
+  padding: 8% 8% 5% 3%;
+  text-align: justify;
+}
+
+.about-me-photo {
+  padding: 3.5% 3% 5% 20%;
+}
+
+.about-me-photo-img {
+  border: 15px solid #383838;
+}
+
+/* SKILLS */
+#skills {
+  text-align: center;
+  background-color: grey;
+  padding: 5% 10% 8% 10%;
+  /* BACKGROUND WITH PARALLAX EFFECT */
+  background-image: url("../images/skills-background.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills-imgs {
+  width: 45%;
+}
+
+.skills-top-text {
+  padding-bottom: 7%;
+}
+
+/* PROJECTS */
+#projects {
+  padding: 5% 8% 0 8%;
+}
+
+.projects-top-text{
+  text-align: center;
+}
+
+.projects-box{
+  margin: 5% 0 3% 0;
+  border: 1px solid;
+  padding: 0.5% 0;
+
+}
+
+.projects-img-box {
+  text-align: center;
+  padding: 0 5%;
+}
+
+/* CONTACT-ME */
+#contact {
+  text-align: center;
+  padding: 2% 5% 0 5%;
+  background-color: #2D2424;
+  color: #fff;
+}
+
+.contact-title {
+  margin-bottom: 1.4rem;
+}
+
+i:hover {
+  color: #E0C097;
+}
+
+@media (max-width: 989px) {
+  .skills-imgs {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+  .about-me-photo{
+    text-align: center;
+    padding: 3.5% 0 5% 0;
+  }
+}
